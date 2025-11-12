@@ -10,8 +10,10 @@ public class TroubleBehavior : MonoBehaviour
     public GameObject _player;
     private Collider _collider;
     public float _radius = 2f;
+    [Header ("Interactions Possibles")]
     public List<GameObject> _objectsToTrue = new List<GameObject>();
     public List<GameObject> _objectsToFalse = new List<GameObject>();
+    public DialogueData dialogue;
 
     private void Start()
     {
@@ -59,6 +61,12 @@ public class TroubleBehavior : MonoBehaviour
                 {
                     obj.SetActive(false);
                 }
+            }
+
+            //Lance un dialogue
+            if(dialogue != null)
+            {
+                DialogueManager.Instance.LaunchDialogue(dialogue);
             }
 
             if (_chromatic != null)
