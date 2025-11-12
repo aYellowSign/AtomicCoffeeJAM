@@ -1,11 +1,14 @@
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
+using System.Collections.Generic;
 
 public class TroubleBehavior : MonoBehaviour
 {
     public Volume _globalVolume;
     private ChromaticAberration _chromatic;
+    public List<GameObject> _objectsToTrue = new List<GameObject>();
+    public List<GameObject> _objectsToFalse = new List<GameObject>();
 
     private void Start()
     {
@@ -13,17 +16,35 @@ public class TroubleBehavior : MonoBehaviour
 
         if (!_globalVolume.profile.TryGet(out _chromatic))
         {
-            Debug.LogWarning("Aucun effet Chromatic Aberration trouvé dans le Volume !");
+            Debug.LogWarning("Aucun effet Chromatic Aberration trouvï¿½ dans le Volume !");
         }
     }
 
     private void OnMouseDown()
     {
-        Debug.Log("Clic détecté !");
+        Debug.Log("Clic dï¿½tectï¿½ !");
+
+        //Active tous les objets de la liste
+        if (_objectsToTrue.Count > 0)
+        {
+            foreach (GameObject obj in _objectsToTrue)
+            {
+                obj.SetActive(true);
+            }
+        }
+
+        //DÃ©sactive tous les objets de la liste
+        if (_objectsToFalse.Count > 0)
+        {
+            foreach (GameObject obj in _objectsToFalse)
+            {
+                obj.SetActive(false);
+            }
+        }
 
         if (_chromatic != null)
         {
-            // Active ou désactive selon l’état actuel
+            // Active ou dï¿½sactive selon lï¿½ï¿½tat actuel
             bool isActive = _chromatic.active;
             _chromatic.active = !isActive;
 
@@ -33,7 +54,7 @@ public class TroubleBehavior : MonoBehaviour
             else
                 _chromatic.intensity.value = 0.0f; 
 
-            Debug.Log($"Chromatic Aberration activé : {_chromatic.active}");
+            Debug.Log($"Chromatic Aberration activï¿½ : {_chromatic.active}");
         }
     }
 }

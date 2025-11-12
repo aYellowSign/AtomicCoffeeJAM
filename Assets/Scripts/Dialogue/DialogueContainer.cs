@@ -6,6 +6,6 @@ public class DialogueContainer : MonoBehaviour
 
     void Start()
     {
-        DialogueManager.Instance.LaunchDialogue(dialogue);
+        //DialogueManager.Instance.LaunchDialogue(dialogue);
     }
 }
