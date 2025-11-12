@@ -12,4 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8fe999777b149245ad7074e3233c3aa, type: 3}
   m_Name: DialogueTest
   m_EditorClassIdentifier: 
-  lines: []
+  lines:
+  - characterName: Georges
+    dialogueText: Bonjour je suis parfaitement sain d'esprit !
+  - characterName: Georges
+    dialogueText: "Je n'ai aucun probl\xE8me !"
+  - characterName: "\xC9veline"
+    dialogueText: Il me bat tous les jours.
