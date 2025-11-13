@@ -1523,6 +1523,18 @@ PrefabInstance:
       propertyPath: orthographic size
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 2135766625025499851, guid: c69e03803f08d814ba8fcd9a69010199, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0.18431373
+      objectReference: {fileID: 0}
+    - target: {fileID: 2135766625025499851, guid: c69e03803f08d814ba8fcd9a69010199, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0.14901961
+      objectReference: {fileID: 0}
+    - target: {fileID: 2135766625025499851, guid: c69e03803f08d814ba8fcd9a69010199, type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0.14509805
+      objectReference: {fileID: 0}
     - target: {fileID: 3622921975780286132, guid: c69e03803f08d814ba8fcd9a69010199, type: 3}
       propertyPath: m_Name
       value: PlayerPrefab
@@ -1671,10 +1683,7 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 711974926650822780, guid: c69e03803f08d814ba8fcd9a69010199, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 9219398755525345261, guid: c69e03803f08d814ba8fcd9a69010199, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1185023301}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c69e03803f08d814ba8fcd9a69010199, type: 3}
 --- !u!1001 &918915314
 PrefabInstance:
@@ -2532,23 +2541,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 92e1ac616c53a4a4c810a176845d15b7, type: 3}
---- !u!1 &1185023298 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9219398755525345261, guid: c69e03803f08d814ba8fcd9a69010199, type: 3}
-  m_PrefabInstance: {fileID: 902957116}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1185023301
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1185023298}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7eea79e48ea0ab54e8d837b97faf78a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1202868805
 PrefabInstance:
   m_ObjectHideFlags: 0
