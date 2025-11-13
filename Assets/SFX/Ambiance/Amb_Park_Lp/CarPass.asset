@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-4362973398886428225
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sfx_CarPass04_{-4362973398886428225}
+  m_AudioClip: {fileID: 8300000, guid: c80714e14868ab042959225b73276707, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &2260716537586421622
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sfx_CarPass01_{2260716537586421622}
+  m_AudioClip: {fileID: 8300000, guid: df973667ae61e6943b89366acd1f7fe9, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &5008064320533443564
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sfx_CarPass03_{5008064320533443564}
+  m_AudioClip: {fileID: 8300000, guid: 216102e4c93d0b543badadf6ae54fb77, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CarPass
+  m_Volume: 0
+  m_Pitch: 0
+  m_AutomaticTriggerTime: 4
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: 0, y: 0}
+  m_PitchRandomizationRange: {x: 0, y: 0}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 8}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: 2260716537586421622}
+  - {fileID: 9089825708695983730}
+  - {fileID: 5008064320533443564}
+  - {fileID: -4362973398886428225}
+  m_AvoidRepeatingLast: 1
+  m_PlaybackMode: 2
+  m_TriggerMode: 1
+  m_AutomaticTriggerMode: 1
+  m_LoopMode: 0
+  m_VolumeRandomizationEnabled: 0
+  m_PitchRandomizationEnabled: 0
+  m_AutomaticTriggerTimeRandomizationEnabled: 0
+  m_LoopCountRandomizationEnabled: 0
+--- !u!1233149941 &9089825708695983730
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sfx_CarPass02_{9089825708695983730}
+  m_AudioClip: {fileID: 8300000, guid: fce3fedb0a4a3ed448f0b50aa55ee858, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
