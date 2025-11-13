@@ -54,39 +54,51 @@ public class TroubleBehavior : MonoBehaviour
     {
         if (_player == null || _characterBehavior == null)
         {
-            Debug.LogError(" Impossible d’interagir : référence au joueur manquante.");
+            Debug.LogError("Impossible d’interagir : référence au joueur manquante.");
             return;
         }
+
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit[] hits = Physics.RaycastAll(ray, 100f);
+        if (hits.Length == 0) return;
+
+        GameObject interactableHit = null;
+
+        foreach (RaycastHit hit in hits)
+        {
+            if (hit.collider.CompareTag("Interactable"))
+            {
+                interactableHit = hit.collider.gameObject;
+                break;
+            }
+        }
+
+        if (interactableHit == null)
+        {
+            return;
+        }
+
+        if (interactableHit != gameObject)
+            return;
 
         float distance = Vector3.Distance(transform.position, _player.transform.position);
         if (distance > _radius)
         {
-            Debug.Log(" Trop loin pour interagir.");
+            Debug.Log("Trop loin pour interagir.");
             return;
         }
 
         Debug.Log("Interaction réussie avec un objet TroubleBehavior !");
 
-        
         foreach (GameObject obj in _objectsToTrue)
-        {
-            if (obj != null)
-                obj.SetActive(true);
-        }
+            if (obj != null) obj.SetActive(true);
 
         foreach (GameObject obj in _objectsToFalse)
-        {
-            if (obj != null)
-                obj.SetActive(false);
-        }
+            if (obj != null) obj.SetActive(false);
 
-       
         if (dialogue != null)
-        {
             DialogueManager.Instance.LaunchDialogue(dialogue);
-        }
 
-       
         if (_chromatic != null)
         {
             _chromatic.active = !_chromatic.active;
@@ -94,7 +106,6 @@ public class TroubleBehavior : MonoBehaviour
             Debug.Log($"Chromatic Aberration activé : {_chromatic.active}");
         }
 
-        
         _characterBehavior.UnblockMovement();
     }
 }
