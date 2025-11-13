@@ -584,6 +584,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 729795199}
+    - target: {fileID: 4802507040215480084, guid: 19156d40beeb3c948b14d1861e34f554, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 4802507040215480084, guid: 19156d40beeb3c948b14d1861e34f554, type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
+      objectReference: {fileID: 0}
     - target: {fileID: 6772723976409329421, guid: 19156d40beeb3c948b14d1861e34f554, type: 3}
       propertyPath: m_Pivot.x
       value: 0
