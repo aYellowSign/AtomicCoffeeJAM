@@ -3,9 +3,15 @@ using UnityEngine;
 public class DialogueContainer : MonoBehaviour
 {
     public DialogueData dialogue;
+    private bool hasPlayed = false;
 
-    void Start()
+    void OnTriggerEnter()
     {
-        //DialogueManager.Instance.LaunchDialogue(dialogue);
+        if (hasPlayed) return;
+        else
+        {
+            DialogueManager.Instance.LaunchDialogue(dialogue);
+            hasPlayed = true;
+        }
     }
 }

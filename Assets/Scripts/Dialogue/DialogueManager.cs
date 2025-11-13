@@ -17,6 +17,7 @@ public class DialogueManager : Singleton<DialogueManager>
     public bool isInDialogue;
     private bool isTyping;
     private bool skipTyping;
+    private float previousTimeScale;
 
     public void LaunchDialogue(DialogueData dialogue)
     {
@@ -27,6 +28,10 @@ public class DialogueManager : Singleton<DialogueManager>
         }
 
         isInDialogue = true;
+
+        previousTimeScale = Time.timeScale;
+        Time.timeScale = 0f;
+
         dialogueUIParent.SetActive(true);
         StartCoroutine(RunDialogue(dialogue));
     }
@@ -44,6 +49,8 @@ public class DialogueManager : Singleton<DialogueManager>
         dialogueText.text = "";
         characterNameText.text = "";
         isInDialogue = false;
+
+        Time.timeScale = previousTimeScale;
     }
 
     private IEnumerator TypeLine(string line)
@@ -61,7 +68,7 @@ public class DialogueManager : Singleton<DialogueManager>
             }
 
             dialogueText.text += c;
-            yield return new WaitForSeconds(typeSpeed);
+            yield return new WaitForSecondsRealtime(typeSpeed);
         }
 
         isTyping = false;
