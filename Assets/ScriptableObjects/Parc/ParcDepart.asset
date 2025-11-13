@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8fe999777b149245ad7074e3233c3aa, type: 3}
+  m_Name: ParcDepart
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: Georges
+    dialogueText: "Alors Chlo\xE9, t\u2019as vu ce beau soleil ? C\u2019est chouette
+      de pouvoir en profiter non ?"
+  - characterName: "Chlo\xE9"
+    dialogueText: Mmmh oui.
+  - characterName: Georges
+    dialogueText: "Pas tr\xE8s bavarde aujourd\u2019hui ?"
+  - characterName: "Chlo\xE9"
+    dialogueText: Mmmh, je sais pas.
+  - characterName: Georges
+    dialogueText: "Ta journ\xE9e \xE0 l\u2019\xE9cole s\u2019est bien pass\xE9e ?
+      Il y a eu quelque chose ?"
+  - characterName: "Chlo\xE9"
+    dialogueText: Oui oui.
+  - characterName: Georges
+    dialogueText: "C\u2019est un petit oui \xE7a\u2026"
+  - characterName: Georges
+    dialogueText: "Mmmh et avec une glace tu m\u2019expliquerais ?"
+  - characterName: "Chlo\xE9"
+    dialogueText: "*sourit timidement* Peut-\xEAtre\u2026"

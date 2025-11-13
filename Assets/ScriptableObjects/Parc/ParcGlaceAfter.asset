@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8fe999777b149245ad7074e3233c3aa, type: 3}
+  m_Name: ParcGlaceAfter
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: "Chlo\xE9"
+    dialogueText: Oh non mais papa MA GLAAAAACE !!
+  - characterName: Georges
+    dialogueText: "D\xE9sol\xE9 d\xE9sol\xE9 ma puce j\u2019ai pas fait expr\xE8s
+      !"
+  - characterName: "Chlo\xE9"
+    dialogueText: "Tout est tomb\xE9\u2026"
+  - characterName: Georges
+    dialogueText: "D\xE9sol\xE9 mon coeur je\u2026 je voulais te faire un c\xE2lin
+      et\u2026 je voulais pas\u2026"
+  - characterName: "Chlo\xE9"
+    dialogueText: "\u2026 C\u2019est pas grave\u2026"
+  - characterName: "Chlo\xE9"
+    dialogueText: "Je vais voir dans la fontaine si je trouve des pi\xE8ces ! Si
+      j\u2019en ai assez je pourrais me racheter une glace !"
+  - characterName: Georges
+    dialogueText: "Euh\u2026 oui haha, je te suis."
