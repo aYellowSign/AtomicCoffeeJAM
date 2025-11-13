@@ -8,12 +8,11 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: M_Georges
-  m_Shader: {fileID: -6465566751694194690, guid: 96992fa7f2a590445904eb81f58b3162, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: b3ef798f264efa24f9510847a474114d, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
-  m_InvalidKeywords:
-  - _ALPHATEST_ON
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 1
@@ -73,6 +72,14 @@ Material:
         m_Texture: {fileID: 2800000, guid: fdc44c00f8765b64a90913f4f818b1c7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Texture2D:
+        m_Texture: {fileID: 2800000, guid: fdc44c00f8765b64a90913f4f818b1c7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_c00af389be7d470f927a4c3f5086454c_Out_0_Texture2D:
+        m_Texture: {fileID: 2800000, guid: fdc44c00f8765b64a90913f4f818b1c7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -110,6 +117,7 @@ Material:
     - _Metallic: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.005
+    - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _Smoothness: 0.5
@@ -118,7 +126,7 @@ Material:
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Surface: 0
-    - _Thickness: 0.0089
+    - _Thickness: 0.008
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
