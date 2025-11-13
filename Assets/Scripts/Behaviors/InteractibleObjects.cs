@@ -5,6 +5,9 @@ public class InteractibleObjects : MonoBehaviour
     private GameObject lastHitObject;
     private Material lastMaterial;
 
+    [Header("Outline Settings")]
+    public float outlineThickness = 1.0f; 
+
     void Update()
     {
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -16,19 +19,19 @@ public class InteractibleObjects : MonoBehaviour
 
             if (hitObject != lastHitObject)
             {
-                
-                if (lastHitObject != null && lastMaterial != null)
+                if (lastMaterial != null)
                 {
-                    lastMaterial.SetFloat("_Thickness", 0f);
+                    lastMaterial.SetInt("_IsOutlined", 0);
+                    lastMaterial.SetFloat("_Outline_Thickness", 0f);
                 }
 
-               
                 Renderer rend = hitObject.GetComponent<Renderer>();
                 if (rend != null)
                 {
-                    lastMaterial = rend.material; 
-                    lastMaterial.SetFloat("_Thickness", 0.05f);
-                    Debug.Log("Outline");
+                    lastMaterial = rend.material;
+                    lastMaterial.SetInt("_IsOutlined", 1);
+                    lastMaterial.SetFloat("_Outline_Thickness", outlineThickness); 
+                    Debug.Log("Outline activé sur : " + hitObject.name);
                 }
 
                 lastHitObject = hitObject;
@@ -36,12 +39,12 @@ public class InteractibleObjects : MonoBehaviour
         }
         else
         {
-            
-            if (lastHitObject != null && lastMaterial != null)
+            if (lastMaterial != null)
             {
-                lastMaterial.SetFloat("_Thickness", 0f);
-                lastHitObject = null;
+                lastMaterial.SetInt("_IsOutlined", 0);
+                lastMaterial.SetFloat("_Outline_Thickness", 0f); 
                 lastMaterial = null;
+                lastHitObject = null;
             }
         }
     }
