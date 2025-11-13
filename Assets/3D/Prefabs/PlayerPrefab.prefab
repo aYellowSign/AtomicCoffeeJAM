@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 1604536229856635889}
   serializedVersion: 2
   m_LocalRotation: {x: 0.23911765, y: 0.3696438, z: -0.09904577, w: 0.89239913}
-  m_LocalPosition: {x: -4, y: 4, z: -4}
+  m_LocalPosition: {x: -4, y: 3.83, z: -4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -117,7 +117,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -232,7 +232,7 @@ Transform:
   m_GameObject: {fileID: 4073876891048507868}
   serializedVersion: 2
   m_LocalRotation: {x: 0.23911765, y: 0.3696438, z: -0.09904577, w: 0.89239913}
-  m_LocalPosition: {x: -4, y: 4, z: -4}
+  m_LocalPosition: {x: -4, y: 3.83, z: -4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -328,6 +328,7 @@ GameObject:
   - component: {fileID: 8365859604675518278}
   - component: {fileID: 728031207388921639}
   - component: {fileID: 2699575930913176198}
+  - component: {fileID: 7764028396382644343}
   - component: {fileID: 5756051694103309784}
   m_Layer: 0
   m_Name: Player
@@ -345,9 +346,9 @@ Transform:
   m_GameObject: {fileID: 7111786700554266605}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 0, y: 0.83, z: 0}
+  m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 3643358873649811277}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -404,6 +405,23 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7764028396382644343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7111786700554266605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 917f75a070c92324fa577f00f20faf96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _walkingPath: {fileID: 0}
+  _movementSpeed: 3
+  _normalSpeed: 3
+  _waitDuration: 2
+  _t: 0
 --- !u!136 &5756051694103309784
 CapsuleCollider:
   m_ObjectHideFlags: 0
