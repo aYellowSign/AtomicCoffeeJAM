@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8fe999777b149245ad7074e3233c3aa, type: 3}
+  m_Name: BarConversation1
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: Georges
+    dialogueText: "Comment \xE7a va mon L\xE9o ?"
+  - characterName: "L\xE9o"
+    dialogueText: "Ha, tu veux m\xEAme pas savoir ! M\u2019enfin on est l\xE0 pour
+      parler de toi non ?"
+  - characterName: Georges
+    dialogueText: "Oh je t\u2019en prie surtout pas, derni\xE8re chose que je souhaite
+      c\u2019est de me faire sermonner \xE0 nouveau."
+  - characterName: "L\xE9o"
+    dialogueText: "Ouais mais tu me connais, je vais te faire parler moi, allez sant\xE9
+      !"
+  - characterName: "L\xE9o"
+    dialogueText: "Va quand m\xEAme falloir en parler tu sais, \xC9velinne se posera
+      des questions."
+  - characterName: "L\xE9o"
+    dialogueText: "Tu sais moi aussi y\u2019a quelques ann\xE9es quand j\u2019ai
+      fait mon p\xE9tage de plomb je croyais que personne me comprenais."
+  - characterName: "L\xE9o"
+    dialogueText: "J\u2019en voulais \xE0 tout le monde, m\xEAme toi, et tu sais
+      ce qui m\u2019a tir\xE9 de cette spirale de malheur ?"
+  - characterName: Georges
+    dialogueText: "L\xE9o\u2026"

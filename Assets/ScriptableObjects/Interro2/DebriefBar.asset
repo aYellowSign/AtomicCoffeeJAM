@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8fe999777b149245ad7074e3233c3aa, type: 3}
+  m_Name: DebriefBar
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: "Polici\xE8re"
+    dialogueText: Georges.
+  - characterName: "Polici\xE8re"
+    dialogueText: Respire calmement.
+  - characterName: Georges
+    dialogueText: "J\u2019ai rien fait\u2026 m-ma main ou mon bras a boug\xE9 tout
+      seul."
+  - characterName: "Polici\xE8re"
+    dialogueText: "Cela peut arriver Georges, dans un moment de faiblesse, pouss\xE9
+      \xE0 bout\u2026"
+  - characterName: Georges
+    dialogueText: "Nan\u2026 vous pouvez pas comprendre\u2026"
+  - characterName: Georges
+    dialogueText: "Tout le monde, m\xEAme moi parfois, croit que j\u2019ai bless\xE9
+      mon meilleur ami et l\u2019ai envoy\xE9 \xE0 l\u2019h\xF4pital pour plusieurs
+      jours !"
+  - characterName: Georges
+    dialogueText: "Mais je sais\u2026 au fond de moi je sais qu\u2019autre chose,
+      m\u2019a pouss\xE9 \xE0 le faire."
+  - characterName: "Polici\xE8re"
+    dialogueText: "Passons \xE0 autre chose."
+  - characterName: "Polici\xE8re"
+    dialogueText: "Le 26 septembre de la m\xEAme ann\xE9e tu embarques Chlo\xE9\u2026
+      ta fille\u2026 faire un tour dans le parc."
+  - characterName: Georges
+    dialogueText: "Je veux pas en parler\u2026"
+  - characterName: "Polici\xE8re"
+    dialogueText: "D\xE9sol\xE9 Georges. Pas le choix."
+  - characterName: "Polici\xE8re"
+    dialogueText: "Je ne te laisserai pas partir avant. Et\u2026 tu veux partir n\u2019est-ce
+      pas ?"
+  - characterName: Georges
+    dialogueText: "Qu\u2019on en finisse\u2026"
