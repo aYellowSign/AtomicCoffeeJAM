@@ -19,7 +19,7 @@ public class InteractibleObjects : MonoBehaviour
                 
                 if (lastHitObject != null && lastMaterial != null)
                 {
-                    lastMaterial.SetFloat("_Outline_Thickness", 0f);
+                    lastMaterial.SetFloat("_Thickness", 0f);
                 }
 
                
@@ -27,7 +27,7 @@ public class InteractibleObjects : MonoBehaviour
                 if (rend != null)
                 {
                     lastMaterial = rend.material; 
-                    lastMaterial.SetFloat("_Outline_Thickness", 0.05f);
+                    lastMaterial.SetFloat("_Thickness", 0.05f);
                     Debug.Log("Outline");
                 }
 
@@ -39,7 +39,7 @@ public class InteractibleObjects : MonoBehaviour
             
             if (lastHitObject != null && lastMaterial != null)
             {
-                lastMaterial.SetFloat("_Outline_Thickness", 0f);
+                lastMaterial.SetFloat("_Thickness", 0f);
                 lastHitObject = null;
                 lastMaterial = null;
             }
