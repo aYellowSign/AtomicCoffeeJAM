@@ -16,19 +16,17 @@ public class InteractibleObjects : MonoBehaviour
 
             if (hitObject != lastHitObject)
             {
-                
-                if (lastHitObject != null && lastMaterial != null)
+                if (lastMaterial != null)
                 {
-                    lastMaterial.SetFloat("_Thickness", 0f);
+                    lastMaterial.SetInt("_IsOutlined", 0);
                 }
 
-               
                 Renderer rend = hitObject.GetComponent<Renderer>();
                 if (rend != null)
                 {
                     lastMaterial = rend.material; 
-                    lastMaterial.SetFloat("_Thickness", 0.05f);
-                    Debug.Log("Outline");
+                    lastMaterial.SetInt("_IsOutlined", 1);
+                    Debug.Log("Outline activé sur : " + hitObject.name);
                 }
 
                 lastHitObject = hitObject;
@@ -36,12 +34,11 @@ public class InteractibleObjects : MonoBehaviour
         }
         else
         {
-            
-            if (lastHitObject != null && lastMaterial != null)
+            if (lastMaterial != null)
             {
-                lastMaterial.SetFloat("_Thickness", 0f);
-                lastHitObject = null;
+                lastMaterial.SetInt("_IsOutlined", 0);
                 lastMaterial = null;
+                lastHitObject = null;
             }
         }
     }
