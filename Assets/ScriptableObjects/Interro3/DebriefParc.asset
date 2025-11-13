@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8fe999777b149245ad7074e3233c3aa, type: 3}
+  m_Name: DebriefParc
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: "Polici\xE8re"
+    dialogueText: "Qu\u2019est-ce qui t\u2019as pris de t\u2019en prendre \xE0 ta
+      propre fille Georges !"
+  - characterName: "Polici\xE8re"
+    dialogueText: "Peu importe tes excuses, j\u2019aurais toujours du mal \xE0 te
+      pardonner."
+  - characterName: Georges
+    dialogueText: "Je sais\u2026 vous voyez qu\u2019un pauvre type qui a fait d\u2019horribles
+      choses, comme je le disais vous ne comprendrez jamais."
+  - characterName: "Polici\xE8re"
+    dialogueText: "J\u2019ai arr\xEAt\xE9 d\u2019essayer de te comprendre."
+  - characterName: Georges
+    dialogueText: "Vous n\u2019\xEAtes pas une tr\xE8s bonne enqu\xEAtrice alors\u2026"
+  - characterName: "Polici\xE8re"
+    dialogueText: "T\u2019as encore p\xE9t\xE9 les plombs\u2026 c\u2019\xE9tait comme
+      \xE7a aussi quand tu t\u2019es pris \xE0 notre fille Chlo\xE9 ?!"
+  - characterName: Georges
+    dialogueText: "Nan j-j\u2019ai pas\u2026 \xC9velinne ?"
+  - characterName: Georges
+    dialogueText: "C\u2019est toi ? Je comprends rien, c\u2019est un cauchemar qu\u2019est-ce
+      que j\u2019ai fait ?"
+  - characterName: "\xC9velinne"
+    dialogueText: "D\u2019horribles choses apparement pour te retrouver ici et comme
+      \xE7a\u2026 quelle est la derni\xE8re chose dont tu te souviens ?"
+  - characterName: Georges
+    dialogueText: "On \xE9tait \xE0 la maison et\u2026"
+  - characterName: Georges
+    dialogueText: "Et\u2026"
+  - characterName: "\xC9velinne"
+    dialogueText: Dis-le.

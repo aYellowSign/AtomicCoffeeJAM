@@ -5,80 +5,107 @@ using System.Collections.Generic;
 
 public class TroubleBehavior : MonoBehaviour
 {
+    [Header("Effets visuels")]
     public Volume _globalVolume;
     private ChromaticAberration _chromatic;
+
+    [Header("Références du joueur")]
     public GameObject _player;
+    private CharacterBehavior _characterBehavior;
+
+    [Header("Paramètres d’interaction")]
     private Collider _collider;
     public float _radius = 2f;
+
+    [Header("Objets à activer / désactiver")]
     public List<GameObject> _objectsToTrue = new List<GameObject>();
     public List<GameObject> _objectsToFalse = new List<GameObject>();
 
+    [Header("Dialogue associé")]
+    public DialogueData dialogue;
+
     private void Start()
     {
-        _globalVolume.profile = Instantiate(_globalVolume.profile);
+        if (_globalVolume != null)
+            _globalVolume.profile = Instantiate(_globalVolume.profile);
 
         _collider = GetComponent<Collider>();
+
         _player = GameObject.FindGameObjectWithTag("Player");
-
-        if (!_globalVolume.profile.TryGet(out _chromatic))
+        if (_player == null)
         {
-            Debug.LogWarning("Aucun effet Chromatic Aberration trouv� dans le Volume !");
+            Debug.LogError("Aucun GameObject avec le tag 'Player' n’a été trouvé !");
+            return;
         }
-    }
 
-    void Update()
-    {
-        float distance = Vector3.Distance(transform.position, _player.transform.position);
-        if (distance < _radius)
-            Debug.Log("Object is in Range");
+        _characterBehavior = _player.GetComponent<CharacterBehavior>();
+        if (_characterBehavior == null)
+        {
+            Debug.LogError(" Le joueur n’a pas de script 'CharacterBehavior' attaché !");
+        }
+
+        if (_globalVolume != null && !_globalVolume.profile.TryGet(out _chromatic))
+        {
+            Debug.LogWarning(" Aucun effet 'Chromatic Aberration' trouvé dans le Volume !");
+        }
     }
 
     private void OnMouseDown()
     {
-        float distance = Vector3.Distance(transform.position, _player.transform.position);
-
-        if (distance > _radius)
-            return;
-        else
+        if (_player == null || _characterBehavior == null)
         {
-            Debug.Log("Clic d�tect� !");
+            Debug.LogError("Impossible d’interagir : référence au joueur manquante.");
+            return;
+        }
 
-            //Active tous les objets de la liste
-            if (_objectsToTrue.Count > 0)
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit[] hits = Physics.RaycastAll(ray, 100f);
+        if (hits.Length == 0) return;
+
+        GameObject interactableHit = null;
+
+        foreach (RaycastHit hit in hits)
+        {
+            if (hit.collider.CompareTag("Interactable"))
             {
-                foreach (GameObject obj in _objectsToTrue)
-                {
-                    obj.SetActive(true);
-                }
-            }
-
-            //Désactive tous les objets de la liste
-            if (_objectsToFalse.Count > 0)
-            {
-                foreach (GameObject obj in _objectsToFalse)
-                {
-                    obj.SetActive(false);
-                }
-            }
-
-            if (_chromatic != null)
-            {
-                // Active ou d�sactive selon l��tat actuel
-                bool isActive = _chromatic.active;
-                _chromatic.active = !isActive;
-
-
-                if (_chromatic.active)
-                    _chromatic.intensity.value = 1.0f;
-                else
-                    _chromatic.intensity.value = 0.0f;
-
-                Debug.Log($"Chromatic Aberration activ� : {_chromatic.active}");
+                interactableHit = hit.collider.gameObject;
+                break;
             }
         }
-    
+
+        if (interactableHit == null)
+        {
+            return;
+        }
+
+        if (interactableHit != gameObject)
+            return;
+
+        float distance = Vector3.Distance(transform.position, _player.transform.position);
+        if (distance > _radius)
+        {
+            Debug.Log("Trop loin pour interagir.");
+            return;
+        }
+
+        Debug.Log("Interaction réussie avec un objet TroubleBehavior !");
+
+        foreach (GameObject obj in _objectsToTrue)
+            if (obj != null) obj.SetActive(true);
+
+        foreach (GameObject obj in _objectsToFalse)
+            if (obj != null) obj.SetActive(false);
+
+        if (dialogue != null)
+            DialogueManager.Instance.LaunchDialogue(dialogue);
+
+        if (_chromatic != null)
+        {
+            _chromatic.active = !_chromatic.active;
+            _chromatic.intensity.value = _chromatic.active ? 1.0f : 0.0f;
+            Debug.Log($"Chromatic Aberration activé : {_chromatic.active}");
+        }
+
+        _characterBehavior.UnblockMovement();
     }
-        
 }
-
-

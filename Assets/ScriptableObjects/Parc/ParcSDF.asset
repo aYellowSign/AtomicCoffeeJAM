@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8fe999777b149245ad7074e3233c3aa, type: 3}
+  m_Name: ParcSDF
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: SDF
+    dialogueText: "H\xE9 connard fais attention !"
+  - characterName: Georges
+    dialogueText: "Pardon d\xE9sol\xE9 j-je vous avais pas vu..."
+  - characterName: Georges
+    dialogueText: Je vais vous aider.
+  - characterName: SDF
+    dialogueText: "D\xE9gage ! Bas-les-pattes !"
+  - characterName: Georges
+    dialogueText: "D\xE9sol\xE9..."
