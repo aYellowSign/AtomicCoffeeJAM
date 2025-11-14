@@ -35,12 +35,22 @@ public class DialogueManager : Singleton<DialogueManager>
         dialogueUIParent.SetActive(true);
         StartCoroutine(RunDialogue(dialogue));
     }
-
     private IEnumerator RunDialogue(DialogueData dialogue)
     {
+        charaSprite1.sprite = dialogue.startingSpriteChara1;
+        charaSprite2.sprite = dialogue.startingSpriteChara2;
+        
         foreach (var line in dialogue.lines)
         {
             characterNameText.text = line.characterName;
+            if(line.characterName == "Georges")
+            {
+                charaSprite1.sprite = line.charaSprite;
+            }
+            else
+            {
+                charaSprite2.sprite = line.charaSprite;
+            }
             yield return StartCoroutine(TypeLine(line.dialogueText));
             yield return new WaitUntil(() => Input.GetMouseButtonDown(0));
         }
