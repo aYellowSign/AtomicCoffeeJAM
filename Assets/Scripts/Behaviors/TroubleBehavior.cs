@@ -16,6 +16,7 @@ public class TroubleBehavior : MonoBehaviour
     [Header("Paramètres d’interaction")]
     private Collider _collider;
     public float _radius = 2f;
+    public bool unblocksMovement;
 
     [Header("Objets à activer / désactiver")]
     public List<GameObject> _objectsToTrue = new List<GameObject>();
@@ -58,6 +59,11 @@ public class TroubleBehavior : MonoBehaviour
             return;
         }
 
+        if(DialogueManager.Instance.isInDialogue)
+        {
+            return;
+        }
+
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit[] hits = Physics.RaycastAll(ray, 100f);
         if (hits.Length == 0) return;
@@ -66,7 +72,7 @@ public class TroubleBehavior : MonoBehaviour
 
         foreach (RaycastHit hit in hits)
         {
-            if (hit.collider.CompareTag("Interactable"))
+            if (hit.collider.CompareTag("Interactable")||hit.collider.CompareTag("Player"))
             {
                 interactableHit = hit.collider.gameObject;
                 break;
@@ -106,6 +112,9 @@ public class TroubleBehavior : MonoBehaviour
             Debug.Log($"Chromatic Aberration activé : {_chromatic.active}");
         }
 
-        _characterBehavior.UnblockMovement();
+        if (unblocksMovement)
+        {
+            _characterBehavior.UnblockMovement();
+        }
     }
 }

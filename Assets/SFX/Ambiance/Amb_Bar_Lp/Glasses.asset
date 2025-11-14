@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-8560036368423421809
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sfx_GlassMovement03_{-8560036368423421809}
+  m_AudioClip: {fileID: 8300000, guid: 2645c7da96bbac740b1ab279b0e0630d, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &2007500173552878828
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sfx_GlassMovement02_{2007500173552878828}
+  m_AudioClip: {fileID: 8300000, guid: a661f78470b024a4c863dcb50d375848, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &4709239969289509959
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sfx_GlassesImpact_{4709239969289509959}
+  m_AudioClip: {fileID: 8300000, guid: da50f9ea27c2c4a41803bf858fe8194b, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Glasses
+  m_Volume: 0
+  m_Pitch: 0
+  m_AutomaticTriggerTime: 3
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: 0, y: 0}
+  m_PitchRandomizationRange: {x: 0, y: 0}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: 8898159624161969117}
+  - {fileID: 2007500173552878828}
+  - {fileID: -8560036368423421809}
+  - {fileID: 4709239969289509959}
+  m_AvoidRepeatingLast: 1
+  m_PlaybackMode: 2
+  m_TriggerMode: 1
+  m_AutomaticTriggerMode: 1
+  m_LoopMode: 0
+  m_VolumeRandomizationEnabled: 0
+  m_PitchRandomizationEnabled: 0
+  m_AutomaticTriggerTimeRandomizationEnabled: 0
+  m_LoopCountRandomizationEnabled: 0
+--- !u!1233149941 &8898159624161969117
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sfx_GlassMovement01_{8898159624161969117}
+  m_AudioClip: {fileID: 8300000, guid: fb0dae7fce8fe7244a9eef10b474a3d1, type: 3}
+  m_Volume: 0
+  m_Enabled: 1

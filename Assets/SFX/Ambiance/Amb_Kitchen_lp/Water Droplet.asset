@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-6305668572478497009
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sfx_waterDroplet04_{-6305668572478497009}
+  m_AudioClip: {fileID: 8300000, guid: 55d9bd3ee2355e0479b3097a169c13b0, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-3393345091486633023
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sfx_waterDroplet03_{-3393345091486633023}
+  m_AudioClip: {fileID: 8300000, guid: c2b7f76b0281a254a86fa42da5de5fd8, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &2355650212388590401
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sfx_waterDroplet01_{2355650212388590401}
+  m_AudioClip: {fileID: 8300000, guid: 078a564f6592dff438eb1b4724403a60, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &3300529815839361100
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sfx_waterDroplet02_{3300529815839361100}
+  m_AudioClip: {fileID: 8300000, guid: 2d37b75dbd9186b4b8035d1425fdbe58, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Water Droplet
+  m_Volume: 0
+  m_Pitch: 0
+  m_AutomaticTriggerTime: 1.5
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: 0, y: 0}
+  m_PitchRandomizationRange: {x: 0, y: 0}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: 2355650212388590401}
+  - {fileID: 3300529815839361100}
+  - {fileID: -3393345091486633023}
+  - {fileID: -6305668572478497009}
+  m_AvoidRepeatingLast: 1
+  m_PlaybackMode: 2
+  m_TriggerMode: 1
+  m_AutomaticTriggerMode: 0
+  m_LoopMode: 0
+  m_VolumeRandomizationEnabled: 0
+  m_PitchRandomizationEnabled: 0
+  m_AutomaticTriggerTimeRandomizationEnabled: 1
+  m_LoopCountRandomizationEnabled: 0
