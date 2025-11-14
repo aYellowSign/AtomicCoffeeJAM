@@ -8,9 +8,33 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu_Scene.unity
     guid: d61046c1329605242a28a711e28e6c20
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level_Scene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Hospital1_Scene.unity
+    guid: 977238e1a1216f2489a617c56eb09cbf
+  - enabled: 0
+    path: Assets/Scenes/Bar_Scene.unity
+    guid: 3d22e1ad699efaf4eb6f19204b152202
+  - enabled: 1
+    path: Assets/Scenes/Bar_SceneBackup.unity
+    guid: d23c6fced7b7e4048904b88a77aff795
+  - enabled: 1
+    path: Assets/Scenes/Hospital2_Scene.unity
+    guid: bb28eb5494bb47e4ca4766c092929649
+  - enabled: 1
+    path: Assets/Scenes/Park_Scene.unity
+    guid: 53b9147d17151d544b2aa4c78b5f7865
+  - enabled: 1
+    path: Assets/Scenes/Hospital3_Scene.unity
+    guid: 8753eb0fd8b49fe4eb4e1ed979176761
+  - enabled: 1
+    path: Assets/Scenes/Kitchen_Scene.unity
+    guid: 74fe16829e67f324cb71c6ce69073f43
+  - enabled: 1
+    path: Assets/Scenes/Hospital4_Scene.unity
+    guid: 3175a41958da9d540aa85fa1a8d4c5c4
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class LoadLevel : MonoBehaviour {
+public class LoadLevel : Singleton<LoadLevel>{
 
 	public void ChangeLevel (int sceneToChangeTo) {
 	//using scene index in place of scene name

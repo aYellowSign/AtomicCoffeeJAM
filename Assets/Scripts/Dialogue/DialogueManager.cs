@@ -91,6 +91,11 @@ public class DialogueManager : Singleton<DialogueManager>
         isInDialogue = false;
 
         Time.timeScale = previousTimeScale;
+        
+        if(dialogue.endsScene)
+        {
+            LoadLevel.Instance.ChangeLevel(dialogue.sceneIndexToLoad);
+        }
     }
 
     private IEnumerator TypeLine(string line)

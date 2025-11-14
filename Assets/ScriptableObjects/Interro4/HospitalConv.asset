@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8fe999777b149245ad7074e3233c3aa, type: 3}
+  m_Name: HospitalConv
+  m_EditorClassIdentifier: 
+  startingSpriteChara1: {fileID: -1346971079, guid: 1640128d549b69e4e8943cee0c094d87, type: 3}
+  startingSpriteChara2: {fileID: 21300000, guid: 79471572538dcf341a8502a25707d392, type: 3}
+  lines:
+  - characterName: "\xC9veline"
+    dialogueText: "Trois ans sont pass\xE9s depuis... ton \xE9tat a empir\xE9."
+    charaSprite: {fileID: 0}
+    soundPrefab: {fileID: 0}
+  - characterName: "\xC9veline"
+    dialogueText: "L'infirmier m'a dit que tu passais de crises de violences \xE0
+      \xEAtre compl\xE8tement d\xE9sesp\xE9r\xE9 par ce que tu avais fait."
+    charaSprite: {fileID: 0}
+    soundPrefab: {fileID: 0}
+  - characterName: Georges
+    dialogueText: "Et j'ai demand\xE9 \xE0 partir..."
+    charaSprite: {fileID: 0}
+    soundPrefab: {fileID: 0}
+  - characterName: "\xC9veline"
+    dialogueText: "C'est pour \xE7a que je suis l\xE0."
+    charaSprite: {fileID: 0}
+    soundPrefab: {fileID: 0}
+  - characterName: "\xC9veline"
+    dialogueText: "Bien que jamais je ne pourrais te pardonner ou m\xEAme te comprendre...
+      \xE7a me d\xE9passe tout \xE7a."
+    charaSprite: {fileID: 0}
+    soundPrefab: {fileID: 0}
+  - characterName: "\xC9veline"
+    dialogueText: "Je voulais quand m\xEAme te voir avant que..."
+    charaSprite: {fileID: 0}
+    soundPrefab: {fileID: 0}
+  - characterName: Georges
+    dialogueText: "Ils ont acc\xE9d\xE9 \xE0 ma demande... parfait."
+    charaSprite: {fileID: 0}
+    soundPrefab: {fileID: 0}
+  - characterName: Georges
+    dialogueText: "Je voulais quand m\xEAme te voir avant que..."
+    charaSprite: {fileID: 0}
+    soundPrefab: {fileID: 0}
+  endsScene: 1
+  sceneIndexToLoad: 0
