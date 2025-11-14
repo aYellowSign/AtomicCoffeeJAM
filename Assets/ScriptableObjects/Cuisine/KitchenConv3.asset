@@ -13,31 +13,39 @@ MonoBehaviour:
   m_Name: KitchenConv3
   m_EditorClassIdentifier: 
   startingSpriteChara1: {fileID: 21300000, guid: f246dc6c54e672b4a962cd0fb5d39cbb, type: 3}
-  startingSpriteChara2: {fileID: 0}
+  startingSpriteChara2: {fileID: 21300000, guid: 5ef985c6cb590ac42b7244ef6fc06708, type: 3}
   lines:
   - characterName: "\xC9veline"
     dialogueText: "T'es devenu compl\xE8tement fou Georges sors-le de l\xE0 !!"
     charaSprite: {fileID: 0}
+    soundPrefab: {fileID: 0}
   - characterName: Georges
     dialogueText: "C'est ce que je me tues \xE0 t'expliquer !"
     charaSprite: {fileID: 0}
+    soundPrefab: {fileID: 0}
   - characterName: Georges
     dialogueText: "Je comprends pas ce que je fais, je suis s\xFBr que c'est pas
       MOI !"
     charaSprite: {fileID: 0}
+    soundPrefab: {fileID: 0}
   - characterName: "\xC9veline"
     dialogueText: "Arr\xEAte Georges, tu me fais peur, sors le de l\xE0..."
     charaSprite: {fileID: 0}
+    soundPrefab: {fileID: 0}
   - characterName: Georges
     dialogueText: "Mais \xE7a semble passer au dessus de la t\xEAte de tout le monde
       !"
     charaSprite: {fileID: 0}
+    soundPrefab: {fileID: 0}
   - characterName: "\xC9veline"
     dialogueText: "T'approches pas Georges s'il te pla\xEEt..."
     charaSprite: {fileID: 0}
+    soundPrefab: {fileID: 0}
   - characterName: Georges
     dialogueText: Je veux pas...
     charaSprite: {fileID: 0}
+    soundPrefab: {fileID: 0}
   - characterName: Georges
     dialogueText: Je veux pas de faire de mal...
     charaSprite: {fileID: 0}
+    soundPrefab: {fileID: 0}

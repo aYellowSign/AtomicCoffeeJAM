@@ -18,25 +18,33 @@ MonoBehaviour:
   - characterName: "\xC9veline"
     dialogueText: "T'es devenu compl\xE8tement fou Georges sors-le de l\xE0 !!"
     charaSprite: {fileID: 0}
+    soundPrefab: {fileID: 0}
   - characterName: Georges
     dialogueText: "C'est ce que je me tues \xE0 t'expliquer !"
     charaSprite: {fileID: 0}
+    soundPrefab: {fileID: 0}
   - characterName: Georges
     dialogueText: "Je comprends pas ce que je fais, je suis s\xFBr que c'est pas
       MOI !"
     charaSprite: {fileID: 0}
+    soundPrefab: {fileID: 0}
   - characterName: "\xC9veline"
     dialogueText: "Arr\xEAte Georges, tu me fais peur, sors le de l\xE0..."
     charaSprite: {fileID: 0}
-  - characterName: Georges
-    dialogueText: ...
-    charaSprite: {fileID: 0}
-  - characterName: "\xC9veline"
-    dialogueText: ...
-    charaSprite: {fileID: 0}
+    soundPrefab: {fileID: 0}
   - characterName: Georges
     dialogueText: ...
     charaSprite: {fileID: -965288919, guid: 47e66ddc8b792d14ca4319f7cd95560c, type: 3}
+    soundPrefab: {fileID: 0}
+  - characterName: "\xC9veline"
+    dialogueText: ...
+    charaSprite: {fileID: 21300000, guid: 0e195df274f11d54b8d42a2c9228b730, type: 3}
+    soundPrefab: {fileID: 0}
+  - characterName: Georges
+    dialogueText: ...
+    charaSprite: {fileID: -285506617, guid: 47e66ddc8b792d14ca4319f7cd95560c, type: 3}
+    soundPrefab: {fileID: 0}
   - characterName: "\xC9veline"
     dialogueText: AH !
     charaSprite: {fileID: 21300000, guid: 0e195df274f11d54b8d42a2c9228b730, type: 3}
+    soundPrefab: {fileID: 0}
