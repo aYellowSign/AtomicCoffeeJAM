@@ -69,5 +69,5 @@ MonoBehaviour:
     dialogueText: Dis-le.
     charaSprite: {fileID: 0}
     soundPrefab: {fileID: 0}
-  endsScene: 0
+  endsScene: 1
   sceneIndexToLoad: 6
