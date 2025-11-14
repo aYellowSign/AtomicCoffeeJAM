@@ -19,41 +19,55 @@ MonoBehaviour:
     dialogueText: "Qu\u2019est-ce qui t\u2019as pris de t\u2019en prendre \xE0 ta
       propre fille Georges !"
     charaSprite: {fileID: 0}
+    soundPrefab: {fileID: 0}
   - characterName: "Polici\xE8re"
     dialogueText: "Peu importe tes excuses, j\u2019aurais toujours du mal \xE0 te
       pardonner."
     charaSprite: {fileID: 0}
+    soundPrefab: {fileID: 0}
   - characterName: Georges
     dialogueText: "Je sais\u2026 vous voyez qu\u2019un pauvre type qui a fait d\u2019horribles
       choses, comme je le disais vous ne comprendrez jamais."
     charaSprite: {fileID: 0}
+    soundPrefab: {fileID: 0}
   - characterName: "Polici\xE8re"
     dialogueText: "J\u2019ai arr\xEAt\xE9 d\u2019essayer de te comprendre."
     charaSprite: {fileID: 0}
+    soundPrefab: {fileID: 0}
   - characterName: Georges
     dialogueText: "Vous n\u2019\xEAtes pas une tr\xE8s bonne enqu\xEAtrice alors\u2026"
     charaSprite: {fileID: 0}
+    soundPrefab: {fileID: 0}
   - characterName: "Polici\xE8re"
     dialogueText: "T\u2019as encore p\xE9t\xE9 les plombs\u2026 c\u2019\xE9tait comme
       \xE7a aussi quand tu t\u2019es pris \xE0 notre fille Chlo\xE9 ?!"
     charaSprite: {fileID: 0}
+    soundPrefab: {fileID: 0}
   - characterName: Georges
     dialogueText: "Nan j-j\u2019ai pas\u2026 \xC9velinne ?"
     charaSprite: {fileID: 0}
+    soundPrefab: {fileID: 0}
   - characterName: Georges
     dialogueText: "C\u2019est toi ? Je comprends rien, c\u2019est un cauchemar qu\u2019est-ce
       que j\u2019ai fait ?"
     charaSprite: {fileID: 0}
+    soundPrefab: {fileID: 0}
   - characterName: "\xC9velinne"
     dialogueText: "D\u2019horribles choses apparement pour te retrouver ici et comme
       \xE7a\u2026 quelle est la derni\xE8re chose dont tu te souviens ?"
     charaSprite: {fileID: 0}
+    soundPrefab: {fileID: 0}
   - characterName: Georges
     dialogueText: "On \xE9tait \xE0 la maison et\u2026"
     charaSprite: {fileID: 0}
+    soundPrefab: {fileID: 0}
   - characterName: Georges
     dialogueText: "Et\u2026"
     charaSprite: {fileID: 0}
+    soundPrefab: {fileID: 0}
   - characterName: "\xC9velinne"
     dialogueText: Dis-le.
     charaSprite: {fileID: 0}
+    soundPrefab: {fileID: 0}
+  endsScene: 0
+  sceneIndexToLoad: 6

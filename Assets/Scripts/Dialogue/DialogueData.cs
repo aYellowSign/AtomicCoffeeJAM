@@ -17,4 +17,6 @@ public class DialogueData : ScriptableObject
     public Sprite startingSpriteChara1;
     public Sprite startingSpriteChara2;
     public List<DialogueLine> lines = new List<DialogueLine>();
+    public bool endsScene;
+    public int sceneIndexToLoad;
 }

@@ -48,3 +48,5 @@ MonoBehaviour:
     dialogueText: AH !
     charaSprite: {fileID: 21300000, guid: 0e195df274f11d54b8d42a2c9228b730, type: 3}
     soundPrefab: {fileID: 0}
+  endsScene: 1
+  sceneIndexToLoad: 7

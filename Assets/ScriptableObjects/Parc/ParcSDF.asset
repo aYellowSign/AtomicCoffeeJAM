@@ -13,23 +13,29 @@ MonoBehaviour:
   m_Name: ParcSDF
   m_EditorClassIdentifier: 
   startingSpriteChara1: {fileID: 21300000, guid: f246dc6c54e672b4a962cd0fb5d39cbb, type: 3}
-  startingSpriteChara2: {fileID: 0}
+  startingSpriteChara2: {fileID: 21300000, guid: 548ef7515596e134191982c8262826ed, type: 3}
   lines:
   - characterName: Georges
     dialogueText: ...
     charaSprite: {fileID: -965288919, guid: 47e66ddc8b792d14ca4319f7cd95560c, type: 3}
+    soundPrefab: {fileID: 0}
   - characterName: SDF
     dialogueText: "H\xE9 connard fais attention !"
     charaSprite: {fileID: 0}
+    soundPrefab: {fileID: 0}
   - characterName: Georges
     dialogueText: "Pardon d\xE9sol\xE9 j-je vous avais pas vu..."
     charaSprite: {fileID: -285506617, guid: 47e66ddc8b792d14ca4319f7cd95560c, type: 3}
+    soundPrefab: {fileID: 0}
   - characterName: Georges
     dialogueText: Je vais vous aider.
     charaSprite: {fileID: 0}
+    soundPrefab: {fileID: 0}
   - characterName: SDF
     dialogueText: "D\xE9gage ! Bas-les-pattes !"
     charaSprite: {fileID: 0}
+    soundPrefab: {fileID: 0}
   - characterName: Georges
     dialogueText: "D\xE9sol\xE9..."
     charaSprite: {fileID: 0}
+    soundPrefab: {fileID: 0}
