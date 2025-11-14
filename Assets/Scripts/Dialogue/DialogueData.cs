@@ -11,6 +11,7 @@ public class DialogueData : ScriptableObject
         public string characterName;
         [TextArea(2,5)] public string dialogueText;
         public Sprite charaSprite;
+        public GameObject soundPrefab;
     }
 
     public Sprite startingSpriteChara1;

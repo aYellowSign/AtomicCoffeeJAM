@@ -40,7 +40,10 @@ public class DialogueManager : Singleton<DialogueManager>
     private IEnumerator RunDialogue(DialogueData dialogue)
     {
         charaSprite1.sprite = dialogue.startingSpriteChara1;
+        charaSprite1.preserveAspect = true;
+
         charaSprite2.sprite = dialogue.startingSpriteChara2;
+        charaSprite2.preserveAspect = true;
 
         if(dialogue.startingSpriteChara2 == null)
         {
@@ -52,16 +55,32 @@ public class DialogueManager : Singleton<DialogueManager>
             characterNameText.text = line.characterName;
             if(line.characterName == "Georges")
             {
-                charaSprite1.sprite = line.charaSprite;
+                if(line.charaSprite != null)
+                {
+                    charaSprite1.sprite = line.charaSprite;
+                    charaSprite1.preserveAspect = true;
+                }
+                
                 chara1CanvasGroup.alpha = 1f;
                 chara2CanvasGroup.alpha = 0.25f;
             }
             else
             {
-                charaSprite2.sprite = line.charaSprite;
+                if(line.charaSprite != null)
+                {
+                    charaSprite2.sprite = line.charaSprite;
+                    charaSprite2.preserveAspect = true;
+                }
+                
                 chara2CanvasGroup.alpha = 1f;
                 chara1CanvasGroup.alpha = 0.25f;
             }
+
+            if(line.soundPrefab != null)
+            {
+                AudioManager.Instance.PlaySound(line.soundPrefab);
+            }
+
             yield return StartCoroutine(TypeLine(line.dialogueText));
             yield return new WaitUntil(() => Input.GetMouseButtonDown(0));
         }

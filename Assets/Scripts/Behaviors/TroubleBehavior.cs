@@ -27,8 +27,12 @@ public class TroubleBehavior : MonoBehaviour
 
     private void Start()
     {
-        if (_globalVolume != null)
-            _globalVolume.profile = Instantiate(_globalVolume.profile);
+        if (_globalVolume == null)
+        {
+            GameObject globalVolumeObj = GameObject.FindGameObjectWithTag("GlobalVolume");
+            if (globalVolumeObj != null)
+                _globalVolume = globalVolumeObj.GetComponent<Volume>();
+        }
 
         _collider = GetComponent<Collider>();
 
