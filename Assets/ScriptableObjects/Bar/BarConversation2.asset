@@ -12,41 +12,56 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8fe999777b149245ad7074e3233c3aa, type: 3}
   m_Name: BarConversation2
   m_EditorClassIdentifier: 
+  startingSpriteChara1: {fileID: 21300000, guid: f246dc6c54e672b4a962cd0fb5d39cbb, type: 3}
+  startingSpriteChara2: {fileID: 21300000, guid: 113fb90421a83c340a74a1227dce69e5, type: 3}
   lines:
   - characterName: "L\xE9o"
     dialogueText: "Ouah la vache Geo', t'as ruin\xE9 le contoir avec tes conneries."
+    charaSprite: {fileID: 0}
   - characterName: Georges
     dialogueText: Oh ferme-la, c'est toi qui me fait boire...
+    charaSprite: {fileID: 0}
   - characterName: "L\xE9o"
     dialogueText: Ouais 'fin c'est pas moi qui tenait ton verre !
+    charaSprite: {fileID: 0}
   - characterName: Georges
     dialogueText: ...
+    charaSprite: {fileID: 0}
   - characterName: "L\xE9o"
     dialogueText: ...
+    charaSprite: {fileID: 0}
   - characterName: "L\xE9o"
     dialogueText: "Nan mais je vais te dire moi ! Je sais que t\u2019aimes pas l\u2019entendre
       mais merde, parler \xE0 ses proches, prendre du temps pour soi c\u2019est \xE7a
       qui r\xE9pare !"
+    charaSprite: {fileID: 0}
   - characterName: Georges
     dialogueText: "Tu sais bien que c\u2019est pas mon fort L\xE9o\u2026 Pourquoi
       tu me conseilles comme si tu me connaissais pas, tu sais bien comment je suis."
+    charaSprite: {fileID: 0}
   - characterName: "L\xE9o"
     dialogueText: "Bah justement Geo\u2019, je commence \xE0 plus te reconna\xEEtre,
       c\u2019est pas que t\u2019as vieilli\u2026 t\u2019as chang\xE9 je te le dit
       et je sais pas ce que t\u2019es devenu."
+    charaSprite: {fileID: 0}
   - characterName: Georges
     dialogueText: "Mais bordel t\u2019entends ce que tu me dis L\xE9o ! Tu crois
       vraiment que c\u2019est ce dont j\u2019ai besoin l\xE0 maintenant ?"
+    charaSprite: {fileID: 0}
   - characterName: "L\xE9o"
     dialogueText: "Bah ouais mais d\xE9sol\xE9 faut t\u2019rentrer dedans un peu
       mec ! Tu t\u2019\xE9tonnes ?"
+    charaSprite: {fileID: 0}
   - characterName: "L\xE9o"
     dialogueText: "T\u2019\xE9tais un petit timide gentil envers tout le monde qu\u2019est-ce
       que j\u2019apprends ? Tu p\xE8tes un c\xE2ble dans l\u2019open-space, tu gueules
       sur tes coll\xE8gues, tu casses des ordis !"
+    charaSprite: {fileID: 0}
   - characterName: "L\xE9o"
     dialogueText: "Alors dis-moi je comprends pas ? T\u2019as un bon boulot, une
       femme, une fille qu\u2019est-ce que t\u2019essayes de faire l\xE0 ?!"
+    charaSprite: {fileID: 0}
   - characterName: "L\xE9o"
     dialogueText: "Alors dis-moi je comprends pas ? T\u2019as un bon boulot, une
       femme, une fille qu\u2019est-ce que t\u2019essayes de faire l\xE0 ?!"
+    charaSprite: {fileID: 0}

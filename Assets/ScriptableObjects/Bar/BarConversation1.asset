@@ -12,26 +12,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8fe999777b149245ad7074e3233c3aa, type: 3}
   m_Name: BarConversation1
   m_EditorClassIdentifier: 
+  startingSpriteChara1: {fileID: 21300000, guid: f246dc6c54e672b4a962cd0fb5d39cbb, type: 3}
+  startingSpriteChara2: {fileID: 21300000, guid: 113fb90421a83c340a74a1227dce69e5, type: 3}
   lines:
   - characterName: Georges
     dialogueText: "Comment \xE7a va mon L\xE9o ?"
+    charaSprite: {fileID: 0}
   - characterName: "L\xE9o"
     dialogueText: "Ha, tu veux m\xEAme pas savoir ! M\u2019enfin on est l\xE0 pour
       parler de toi non ?"
+    charaSprite: {fileID: 0}
   - characterName: Georges
     dialogueText: "Oh je t\u2019en prie surtout pas, derni\xE8re chose que je souhaite
       c\u2019est de me faire sermonner \xE0 nouveau."
+    charaSprite: {fileID: 0}
   - characterName: "L\xE9o"
     dialogueText: "Ouais mais tu me connais, je vais te faire parler moi, allez sant\xE9
       !"
+    charaSprite: {fileID: 0}
   - characterName: "L\xE9o"
     dialogueText: "Va quand m\xEAme falloir en parler tu sais, \xC9velinne se posera
       des questions."
+    charaSprite: {fileID: 0}
   - characterName: "L\xE9o"
     dialogueText: "Tu sais moi aussi y\u2019a quelques ann\xE9es quand j\u2019ai
       fait mon p\xE9tage de plomb je croyais que personne me comprenais."
+    charaSprite: {fileID: 0}
   - characterName: "L\xE9o"
     dialogueText: "J\u2019en voulais \xE0 tout le monde, m\xEAme toi, et tu sais
       ce qui m\u2019a tir\xE9 de cette spirale de malheur ?"
+    charaSprite: {fileID: 0}
   - characterName: Georges
     dialogueText: "L\xE9o\u2026"
+    charaSprite: {fileID: 0}
