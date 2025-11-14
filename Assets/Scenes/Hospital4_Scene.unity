@@ -4390,6 +4390,71 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fb631208656f59b4c925b914f89d4966, type: 3}
   m_PrefabInstance: {fileID: 1873236273}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1907298160
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1977182888}
+    m_Modifications:
+    - target: {fileID: 532212895077806456, guid: d748a1c36a4aa3444829e63df9ce0383, type: 3}
+      propertyPath: m_Name
+      value: Sfx_HeartRate01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3564011028194720514, guid: d748a1c36a4aa3444829e63df9ce0383, type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3564011028194720514, guid: d748a1c36a4aa3444829e63df9ce0383, type: 3}
+      propertyPath: m_Volume
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379004784390198603, guid: d748a1c36a4aa3444829e63df9ce0383, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379004784390198603, guid: d748a1c36a4aa3444829e63df9ce0383, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379004784390198603, guid: d748a1c36a4aa3444829e63df9ce0383, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379004784390198603, guid: d748a1c36a4aa3444829e63df9ce0383, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379004784390198603, guid: d748a1c36a4aa3444829e63df9ce0383, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379004784390198603, guid: d748a1c36a4aa3444829e63df9ce0383, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379004784390198603, guid: d748a1c36a4aa3444829e63df9ce0383, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379004784390198603, guid: d748a1c36a4aa3444829e63df9ce0383, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379004784390198603, guid: d748a1c36a4aa3444829e63df9ce0383, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379004784390198603, guid: d748a1c36a4aa3444829e63df9ce0383, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d748a1c36a4aa3444829e63df9ce0383, type: 3}
 --- !u!1001 &1947423502
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4468,6 +4533,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8cf78348963e7924f84f41c31eefd227, type: 3}
   m_PrefabInstance: {fileID: 1947423502}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1965372277 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8379004784390198603, guid: d748a1c36a4aa3444829e63df9ce0383, type: 3}
+  m_PrefabInstance: {fileID: 1907298160}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1977182887
 GameObject:
   m_ObjectHideFlags: 0
@@ -4497,6 +4567,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1965372277}
   - {fileID: 5200021292725742329}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5289,6 +5360,10 @@ PrefabInstance:
     - target: {fileID: 4721670931639990875, guid: ba7a577f8ccc1074ebf9113d6b888bdc, type: 3}
       propertyPath: m_Name
       value: Mus_HospitalP4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4846883561694842490, guid: ba7a577f8ccc1074ebf9113d6b888bdc, type: 3}
+      propertyPath: Loop
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
