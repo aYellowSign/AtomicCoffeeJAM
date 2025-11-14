@@ -12,46 +12,64 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8fe999777b149245ad7074e3233c3aa, type: 3}
   m_Name: DialogueOnboarding
   m_EditorClassIdentifier: 
+  startingSpriteChara1: {fileID: 21300000, guid: f246dc6c54e672b4a962cd0fb5d39cbb, type: 3}
+  startingSpriteChara2: {fileID: 0}
   lines:
   - characterName: "Polici\xE8re"
     dialogueText: Georges.
+    charaSprite: {fileID: 0}
   - characterName: "Polici\xE8re"
     dialogueText: Georges !
+    charaSprite: {fileID: 0}
   - characterName: Georges
     dialogueText: Qu-quoi ?
+    charaSprite: {fileID: 0}
   - characterName: Georges
     dialogueText: "Je suis o\xF9 merde ?!"
+    charaSprite: {fileID: 0}
   - characterName: "Polici\xE8re"
     dialogueText: "Calme toi Georges. On t\u2019a emp\xEAch\xE9 de bouger pour notre
       s\xE9curit\xE9, \xE0 toi et moi."
+    charaSprite: {fileID: 0}
   - characterName: Georges
     dialogueText: "Je sais pas ce qui m\u2019a pris je vous ai d\xE9j\xE0 dit !"
+    charaSprite: {fileID: 0}
   - characterName: Georges
     dialogueText: "Mais on m\u2019\xE9coute pas\u2026 on me remet toujours la faute\u2026"
+    charaSprite: {fileID: 0}
   - characterName: "Polici\xE8re"
     dialogueText: "Je vais avoir besoin que tu coop\xE8res\u2026 une derni\xE8re
       fois."
+    charaSprite: {fileID: 0}
   - characterName: "Polici\xE8re"
     dialogueText: "Il reste quelques incidents qui ne sont pas clairs, nous avons\u2026
       tous\u2026 besoin d\u2019explications."
+    charaSprite: {fileID: 0}
   - characterName: Georges
     dialogueText: "Je peux tout r\xE9p\xE9ter, encore et encore\u2026 on va faire
       semblant de m\u2019\xE9couter, de me comprendre mais\u2026"
+    charaSprite: {fileID: 0}
   - characterName: Georges
     dialogueText: "\u2026mais apr\xE8s tout revient comme avant."
+    charaSprite: {fileID: 0}
   - characterName: "Polici\xE8re"
     dialogueText: "Le 16 juillet 2001, tu \xE9tais au bar avec ton meilleur ami,
       L\xE9o. Tu t\u2019en rappelles ?"
+    charaSprite: {fileID: 0}
   - characterName: Georges
     dialogueText: "Putain, un an apr\xE8s vous m\u2019emmerdez encore avec cette
       histoire ? J\u2019\xE9tais bourr\xE9 ouais\u2026  je me suis excus\xE9 je sais
       pas combien de fois\u2026"
+    charaSprite: {fileID: 0}
   - characterName: "Polici\xE8re"
     dialogueText: "Un an ? Georges je vais avoir besoin que tu me racontes tout ce
       dont tu te souviens de cette soir\xE9e."
+    charaSprite: {fileID: 0}
   - characterName: Georges
     dialogueText: "\u2026 J\u2019avais eu une mauvaise journ\xE9e de boulot. L\xE9o
       en bon pote m\u2019a propos\xE9 de se boir un verre apr\xE8s le boulot."
+    charaSprite: {fileID: 0}
   - characterName: Georges
     dialogueText: "J\u2019ai pr\xE9venu \xC9velinne, elle \xE9tait d\u2019accord\u2026
       tout allait bien encore \xE0 ce moment-l\xE0 avec elle."
+    charaSprite: {fileID: 0}

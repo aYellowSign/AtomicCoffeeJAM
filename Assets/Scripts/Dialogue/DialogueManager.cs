@@ -11,6 +11,8 @@ public class DialogueManager : Singleton<DialogueManager>
     public TMP_Text characterNameText;
     public Image charaSprite1;
     public Image charaSprite2;
+    public CanvasGroup chara1CanvasGroup;
+    public CanvasGroup chara2CanvasGroup;
 
     [Header ("Dialogue Parameters")]
     public float typeSpeed = 0.03f;
@@ -39,6 +41,11 @@ public class DialogueManager : Singleton<DialogueManager>
     {
         charaSprite1.sprite = dialogue.startingSpriteChara1;
         charaSprite2.sprite = dialogue.startingSpriteChara2;
+
+        if(dialogue.startingSpriteChara2 == null)
+        {
+            chara2CanvasGroup.alpha = 0f;
+        }
         
         foreach (var line in dialogue.lines)
         {
@@ -46,10 +53,14 @@ public class DialogueManager : Singleton<DialogueManager>
             if(line.characterName == "Georges")
             {
                 charaSprite1.sprite = line.charaSprite;
+                chara1CanvasGroup.alpha = 1f;
+                chara2CanvasGroup.alpha = 0.25f;
             }
             else
             {
                 charaSprite2.sprite = line.charaSprite;
+                chara2CanvasGroup.alpha = 1f;
+                chara1CanvasGroup.alpha = 0.25f;
             }
             yield return StartCoroutine(TypeLine(line.dialogueText));
             yield return new WaitUntil(() => Input.GetMouseButtonDown(0));

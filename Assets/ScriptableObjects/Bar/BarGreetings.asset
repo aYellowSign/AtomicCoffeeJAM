@@ -12,8 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8fe999777b149245ad7074e3233c3aa, type: 3}
   m_Name: BarGreetings
   m_EditorClassIdentifier: 
+  startingSpriteChara1: {fileID: 21300000, guid: f246dc6c54e672b4a962cd0fb5d39cbb, type: 3}
+  startingSpriteChara2: {fileID: 21300000, guid: 113fb90421a83c340a74a1227dce69e5, type: 3}
   lines:
   - characterName: "L\xE9o"
     dialogueText: "Ouais Geo\u2019 ici !"
+    charaSprite: {fileID: 0}
   - characterName: Georges
     dialogueText: "j\u2019ai tout sauf envie de me faire remarquer L\xE9o\u2026"
+    charaSprite: {fileID: 0}

@@ -12,37 +12,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8fe999777b149245ad7074e3233c3aa, type: 3}
   m_Name: DebriefBar
   m_EditorClassIdentifier: 
+  startingSpriteChara1: {fileID: 21300000, guid: f246dc6c54e672b4a962cd0fb5d39cbb, type: 3}
+  startingSpriteChara2: {fileID: 0}
   lines:
   - characterName: "Polici\xE8re"
     dialogueText: Georges.
+    charaSprite: {fileID: 0}
   - characterName: "Polici\xE8re"
     dialogueText: Respire calmement.
+    charaSprite: {fileID: 0}
   - characterName: Georges
     dialogueText: "J\u2019ai rien fait\u2026 m-ma main ou mon bras a boug\xE9 tout
       seul."
+    charaSprite: {fileID: 0}
   - characterName: "Polici\xE8re"
     dialogueText: "Cela peut arriver Georges, dans un moment de faiblesse, pouss\xE9
       \xE0 bout\u2026"
+    charaSprite: {fileID: 0}
   - characterName: Georges
     dialogueText: "Nan\u2026 vous pouvez pas comprendre\u2026"
+    charaSprite: {fileID: 0}
   - characterName: Georges
     dialogueText: "Tout le monde, m\xEAme moi parfois, croit que j\u2019ai bless\xE9
       mon meilleur ami et l\u2019ai envoy\xE9 \xE0 l\u2019h\xF4pital pour plusieurs
       jours !"
+    charaSprite: {fileID: 0}
   - characterName: Georges
     dialogueText: "Mais je sais\u2026 au fond de moi je sais qu\u2019autre chose,
       m\u2019a pouss\xE9 \xE0 le faire."
+    charaSprite: {fileID: 0}
   - characterName: "Polici\xE8re"
     dialogueText: "Passons \xE0 autre chose."
+    charaSprite: {fileID: 0}
   - characterName: "Polici\xE8re"
     dialogueText: "Le 26 septembre de la m\xEAme ann\xE9e tu embarques Chlo\xE9\u2026
       ta fille\u2026 faire un tour dans le parc."
+    charaSprite: {fileID: 0}
   - characterName: Georges
     dialogueText: "Je veux pas en parler\u2026"
+    charaSprite: {fileID: 0}
   - characterName: "Polici\xE8re"
     dialogueText: "D\xE9sol\xE9 Georges. Pas le choix."
+    charaSprite: {fileID: 0}
   - characterName: "Polici\xE8re"
     dialogueText: "Je ne te laisserai pas partir avant. Et\u2026 tu veux partir n\u2019est-ce
       pas ?"
+    charaSprite: {fileID: 0}
   - characterName: Georges
     dialogueText: "Qu\u2019on en finisse\u2026"
+    charaSprite: {fileID: 0}
