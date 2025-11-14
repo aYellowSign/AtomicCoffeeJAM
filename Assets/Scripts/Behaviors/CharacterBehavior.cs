@@ -10,13 +10,17 @@ public class CharacterBehavior : MonoBehaviour
 
     public bool _isBlocked = false; 
 
+   
+
     void Update()
     {
         if (_walkingPath == null) return;
 
         if (_isBlocked)
             return;
-
+        
+        
+        
         
         _t += _movementSpeed * Time.deltaTime / _walkingPath.Spline.GetLength();
         if (_t > 1f) _t = 0f;
@@ -37,6 +41,7 @@ public class CharacterBehavior : MonoBehaviour
         {
             Debug.Log("Checkpoint atteint — le joueur s’arrête !");
             _isBlocked = true;
+            
         }
     }
 
