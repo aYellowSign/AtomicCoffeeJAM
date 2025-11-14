@@ -10,42 +10,33 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b8fe999777b149245ad7074e3233c3aa, type: 3}
-  m_Name: KitchenConv1
+  m_Name: KitchenFight
   m_EditorClassIdentifier: 
   startingSpriteChara1: {fileID: 21300000, guid: f246dc6c54e672b4a962cd0fb5d39cbb, type: 3}
   startingSpriteChara2: {fileID: 21300000, guid: 5ef985c6cb590ac42b7244ef6fc06708, type: 3}
   lines:
   - characterName: "\xC9veline"
-    dialogueText: Tu m'expliques ?
+    dialogueText: "T'es devenu compl\xE8tement fou Georges sors-le de l\xE0 !!"
     charaSprite: {fileID: 0}
   - characterName: Georges
-    dialogueText: De ? Quoi ?
-    charaSprite: {fileID: 0}
-  - characterName: "\xC9veline"
-    dialogueText: "Les m\xE9dicaments que j'ai trouv\xE9s, je sais que c'est \xE0
-      toi !"
+    dialogueText: "C'est ce que je me tues \xE0 t'expliquer !"
     charaSprite: {fileID: 0}
   - characterName: Georges
-    dialogueText: "Je voulais pas t'inqui\xE9ter..."
+    dialogueText: "Je comprends pas ce que je fais, je suis s\xFBr que c'est pas
+      MOI !"
     charaSprite: {fileID: 0}
   - characterName: "\xC9veline"
-    dialogueText: "M'inqui\xE9ter ? T'as pouss\xE9 notre fille dans une fontaine
-      je te rappelle !"
-    charaSprite: {fileID: 0}
-  - characterName: "\xC9veline"
-    dialogueText: "Je sais que tu vas pas bien... que quelque chose va pas chez toi
-      mais... j'aime pas ces trucs l\xE0 !"
+    dialogueText: "Arr\xEAte Georges, tu me fais peur, sors le de l\xE0..."
     charaSprite: {fileID: 0}
   - characterName: Georges
-    dialogueText: "Parce que t'en sais quelque chose s\xFBrement !"
+    dialogueText: ...
     charaSprite: {fileID: 0}
   - characterName: "\xC9veline"
-    dialogueText: Je sais que c'est pas bon, je veux que tu les prennes et que tu
-      les jettes !
-    charaSprite: {fileID: 0}
-  - characterName: "\xC9veline"
-    dialogueText: Moi je m'approche pas de ces trucs !
+    dialogueText: ...
     charaSprite: {fileID: 0}
   - characterName: Georges
-    dialogueText: Ok... ok... tu vas voir.
-    charaSprite: {fileID: 0}
+    dialogueText: ...
+    charaSprite: {fileID: -965288919, guid: 47e66ddc8b792d14ca4319f7cd95560c, type: 3}
+  - characterName: "\xC9veline"
+    dialogueText: AH !
+    charaSprite: {fileID: 21300000, guid: 0e195df274f11d54b8d42a2c9228b730, type: 3}

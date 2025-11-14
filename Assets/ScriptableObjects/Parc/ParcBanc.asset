@@ -12,28 +12,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8fe999777b149245ad7074e3233c3aa, type: 3}
   m_Name: ParcBanc
   m_EditorClassIdentifier: 
+  startingSpriteChara1: {fileID: 21300000, guid: f246dc6c54e672b4a962cd0fb5d39cbb, type: 3}
+  startingSpriteChara2: {fileID: -468363516, guid: c95fdf3a98562534b9bcf32e2c660e88, type: 3}
   lines:
   - characterName: Georges
-    dialogueText: "Je savais pas que pistache \xE9tait ton go\xFBt pr\xE9f\xE9r\xE9
+    dialogueText: "Je savais pas que chocolat \xE9tait ton go\xFBt pr\xE9f\xE9r\xE9
       !"
+    charaSprite: {fileID: 0}
   - characterName: "Chlo\xE9"
     dialogueText: "Bah siii je prends toujours \xE7a !"
+    charaSprite: {fileID: 2060214238, guid: c95fdf3a98562534b9bcf32e2c660e88, type: 3}
   - characterName: Georges
     dialogueText: "Ah\u2026 bon\u2026"
+    charaSprite: {fileID: 0}
   - characterName: Georges
     dialogueText: "Si tu m\u2019expliquais ce qu\u2019il se passe ?"
+    charaSprite: {fileID: 0}
   - characterName: "Chlo\xE9"
     dialogueText: "C\u2019est Thomas\u2026"
+    charaSprite: {fileID: -468363516, guid: c95fdf3a98562534b9bcf32e2c660e88, type: 3}
   - characterName: Georges
     dialogueText: "Qu\u2019est-ce qu\u2019il a encore fait, il t\u2019emb\xEAte ?"
+    charaSprite: {fileID: 0}
   - characterName: "Chlo\xE9"
     dialogueText: "Toi papa qu\u2019est-ce que t\u2019as fait ?"
+    charaSprite: {fileID: 0}
   - characterName: Georges
     dialogueText: "Co-Comment \xE7a ?"
+    charaSprite: {fileID: 0}
   - characterName: "Chlo\xE9"
     dialogueText: "Il a entendu ses parents parler de toi\u2026"
+    charaSprite: {fileID: 0}
   - characterName: "Chlo\xE9"
     dialogueText: "Il m\u2019emb\xEAte parce qu\u2019il dit que c\u2019est toi qui
       a fait mal \xE0 son papa."
+    charaSprite: {fileID: 0}
   - characterName: Georges
     dialogueText: "Je\u2026 eumh\u2026"
+    charaSprite: {fileID: 0}

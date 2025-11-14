@@ -29,9 +29,6 @@ MonoBehaviour:
     dialogueText: "Arr\xEAte Georges, tu me fais peur, sors le de l\xE0..."
     charaSprite: {fileID: 0}
   - characterName: Georges
-    dialogueText: Mais moi aussi j'ai peur, moi aussi !
-    charaSprite: {fileID: 0}
-  - characterName: Georges
     dialogueText: "Mais \xE7a semble passer au dessus de la t\xEAte de tout le monde
       !"
     charaSprite: {fileID: 0}

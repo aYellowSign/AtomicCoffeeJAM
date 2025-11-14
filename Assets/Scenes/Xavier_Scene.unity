@@ -167,6 +167,8 @@ MonoBehaviour:
   characterNameText: {fileID: 0}
   charaSprite1: {fileID: 0}
   charaSprite2: {fileID: 0}
+  chara1CanvasGroup: {fileID: 0}
+  chara2CanvasGroup: {fileID: 0}
   typeSpeed: 0.03
   isInDialogue: 0
 --- !u!1 &87116740

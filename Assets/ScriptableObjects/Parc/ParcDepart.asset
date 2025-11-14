@@ -12,24 +12,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8fe999777b149245ad7074e3233c3aa, type: 3}
   m_Name: ParcDepart
   m_EditorClassIdentifier: 
+  startingSpriteChara1: {fileID: 21300000, guid: f246dc6c54e672b4a962cd0fb5d39cbb, type: 3}
+  startingSpriteChara2: {fileID: 21300000, guid: 2cd361a3950e2ab4e8fdce166ecd233a, type: 3}
   lines:
   - characterName: Georges
     dialogueText: "Alors Chlo\xE9, t\u2019as vu ce beau soleil ? C\u2019est chouette
       de pouvoir en profiter non ?"
+    charaSprite: {fileID: 0}
   - characterName: "Chlo\xE9"
     dialogueText: Mmmh oui.
+    charaSprite: {fileID: 0}
   - characterName: Georges
     dialogueText: "Pas tr\xE8s bavarde aujourd\u2019hui ?"
+    charaSprite: {fileID: 0}
   - characterName: "Chlo\xE9"
     dialogueText: Mmmh, je sais pas.
+    charaSprite: {fileID: 0}
   - characterName: Georges
     dialogueText: "Ta journ\xE9e \xE0 l\u2019\xE9cole s\u2019est bien pass\xE9e ?
       Il y a eu quelque chose ?"
+    charaSprite: {fileID: 0}
   - characterName: "Chlo\xE9"
     dialogueText: Oui oui.
+    charaSprite: {fileID: 0}
   - characterName: Georges
     dialogueText: "C\u2019est un petit oui \xE7a\u2026"
+    charaSprite: {fileID: 0}
   - characterName: Georges
     dialogueText: "Mmmh et avec une glace tu m\u2019expliquerais ?"
+    charaSprite: {fileID: 0}
   - characterName: "Chlo\xE9"
     dialogueText: "*sourit timidement* Peut-\xEAtre\u2026"
+    charaSprite: {fileID: 0}

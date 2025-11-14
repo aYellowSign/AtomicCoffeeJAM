@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: DialogueOnboarding
   m_EditorClassIdentifier: 
   startingSpriteChara1: {fileID: 21300000, guid: f246dc6c54e672b4a962cd0fb5d39cbb, type: 3}
-  startingSpriteChara2: {fileID: 0}
+  startingSpriteChara2: {fileID: 21300000, guid: 5ef985c6cb590ac42b7244ef6fc06708, type: 3}
   lines:
   - characterName: "Polici\xE8re"
     dialogueText: Georges.

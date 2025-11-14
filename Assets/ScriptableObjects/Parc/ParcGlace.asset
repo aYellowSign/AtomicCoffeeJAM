@@ -12,12 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8fe999777b149245ad7074e3233c3aa, type: 3}
   m_Name: ParcGlace
   m_EditorClassIdentifier: 
+  startingSpriteChara1: {fileID: 21300000, guid: f246dc6c54e672b4a962cd0fb5d39cbb, type: 3}
+  startingSpriteChara2: {fileID: -468363516, guid: c95fdf3a98562534b9bcf32e2c660e88, type: 3}
   lines:
   - characterName: Georges
     dialogueText: "Viens on va s\u2019assoir pr\xE8s de la fontaine, on sera mieux."
+    charaSprite: {fileID: 0}
   - characterName: "Chlo\xE9"
     dialogueText: "D\u2019accooord !"
+    charaSprite: {fileID: 0}
   - characterName: Georgres
     dialogueText: "Tu te sens d\xE9j\xE0 un peu mieux ?"
+    charaSprite: {fileID: 0}
   - characterName: "Chlo\xE9"
     dialogueText: Ouiii merci papa !
+    charaSprite: {fileID: 2060214238, guid: c95fdf3a98562534b9bcf32e2c660e88, type: 3}

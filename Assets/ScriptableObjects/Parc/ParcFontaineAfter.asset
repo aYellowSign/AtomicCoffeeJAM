@@ -12,15 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8fe999777b149245ad7074e3233c3aa, type: 3}
   m_Name: ParcFontaineAfter
   m_EditorClassIdentifier: 
+  startingSpriteChara1: {fileID: 21300000, guid: f246dc6c54e672b4a962cd0fb5d39cbb, type: 3}
+  startingSpriteChara2: {fileID: 21300000, guid: ab32741489bf5d54e83d6bc48b3ae7e8, type: 3}
   lines:
-  - characterName: "Chlo\xE9"
-    dialogueText: "AAAA\xCFE !!"
-  - characterName: "Chlo\xE9"
-    dialogueText: "A\xEFe\u2026 Papa TU m\u2019as fait super mal\u2026"
-  - characterName: Georges
-    dialogueText: "C\u2019est\u2026 je\u2026"
-  - characterName: "Chlo\xE9"
-    dialogueText: "Pourquoi T\u2019AS fait \xE7a\u2026 ?"
   - characterName: Georges
     dialogueText: "Je\u2026 c\u2019est pas moi, mais\u2026 mais qu\u2019est-ce qui
       me prend ??"
+    charaSprite: {fileID: 0}
+  - characterName: "Chlo\xE9"
+    dialogueText: "AAAA\xCFE !!"
+    charaSprite: {fileID: 21300000, guid: 64e6522e6a3418f499ea18bc86993c03, type: 3}
+  - characterName: "Chlo\xE9"
+    dialogueText: "A\xEFe\u2026 Papa TU m\u2019as fait super mal\u2026"
+    charaSprite: {fileID: 0}
+  - characterName: Georges
+    dialogueText: "C\u2019est\u2026 je\u2026"
+    charaSprite: {fileID: 0}
+  - characterName: "Chlo\xE9"
+    dialogueText: "Pourquoi T\u2019AS fait \xE7a\u2026 ?"
+    charaSprite: {fileID: 0}
+  - characterName: Georges
+    dialogueText: "Je\u2026 c\u2019est pas moi, mais\u2026 mais qu\u2019est-ce qui
+      me prend ??"
+    charaSprite: {fileID: 0}

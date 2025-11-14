@@ -12,21 +12,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8fe999777b149245ad7074e3233c3aa, type: 3}
   m_Name: ParcGlaceAfter
   m_EditorClassIdentifier: 
+  startingSpriteChara1: {fileID: 21300000, guid: f246dc6c54e672b4a962cd0fb5d39cbb, type: 3}
+  startingSpriteChara2: {fileID: 21300000, guid: 64e6522e6a3418f499ea18bc86993c03, type: 3}
   lines:
   - characterName: "Chlo\xE9"
     dialogueText: Oh non mais papa MA GLAAAAACE !!
+    charaSprite: {fileID: 0}
   - characterName: Georges
     dialogueText: "D\xE9sol\xE9 d\xE9sol\xE9 ma puce j\u2019ai pas fait expr\xE8s
       !"
+    charaSprite: {fileID: 0}
   - characterName: "Chlo\xE9"
     dialogueText: "Tout est tomb\xE9\u2026"
+    charaSprite: {fileID: 0}
   - characterName: Georges
     dialogueText: "D\xE9sol\xE9 mon coeur je\u2026 je voulais te faire un c\xE2lin
       et\u2026 je voulais pas\u2026"
+    charaSprite: {fileID: 0}
   - characterName: "Chlo\xE9"
     dialogueText: "\u2026 C\u2019est pas grave\u2026"
+    charaSprite: {fileID: 0}
   - characterName: "Chlo\xE9"
     dialogueText: "Je vais voir dans la fontaine si je trouve des pi\xE8ces ! Si
       j\u2019en ai assez je pourrais me racheter une glace !"
+    charaSprite: {fileID: 21300000, guid: 2cd361a3950e2ab4e8fdce166ecd233a, type: 3}
   - characterName: Georges
     dialogueText: "Euh\u2026 oui haha, je te suis."
+    charaSprite: {fileID: 0}
