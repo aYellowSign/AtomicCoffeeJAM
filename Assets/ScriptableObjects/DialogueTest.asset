@@ -12,10 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8fe999777b149245ad7074e3233c3aa, type: 3}
   m_Name: DialogueTest
   m_EditorClassIdentifier: 
+  startingSpriteChara1: {fileID: 21300000, guid: f246dc6c54e672b4a962cd0fb5d39cbb, type: 3}
+  startingSpriteChara2: {fileID: 21300000, guid: 113fb90421a83c340a74a1227dce69e5, type: 3}
   lines:
   - characterName: Georges
     dialogueText: Bonjour je suis parfaitement sain d'esprit !
+    charaSprite: {fileID: -1730351328, guid: c42f2c3688d1bd34da74e9f66984c876, type: 3}
   - characterName: Georges
     dialogueText: "Je n'ai aucun probl\xE8me !"
+    charaSprite: {fileID: 1345581731, guid: c42f2c3688d1bd34da74e9f66984c876, type: 3}
   - characterName: "\xC9veline"
     dialogueText: Il me bat tous les jours.
+    charaSprite: {fileID: 21300000, guid: 37cf79c50b29bf340b2a3283b9a9fb9e, type: 3}
+  - characterName: "\xC9veline"
+    dialogueText: 'Il me bat tous les jours2
+
+'
+    charaSprite: {fileID: 21300000, guid: 113fb90421a83c340a74a1227dce69e5, type: 3}

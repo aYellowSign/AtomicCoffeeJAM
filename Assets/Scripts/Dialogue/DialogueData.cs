@@ -10,7 +10,10 @@ public class DialogueData : ScriptableObject
     {
         public string characterName;
         [TextArea(2,5)] public string dialogueText;
+        public Sprite charaSprite;
     }
 
+    public Sprite startingSpriteChara1;
+    public Sprite startingSpriteChara2;
     public List<DialogueLine> lines = new List<DialogueLine>();
 }
